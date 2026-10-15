@@ -15,7 +15,14 @@ A 股 IPO 多角色专家团队框架：主理人编排 + 财务/法律/行业�
 ## 三种用法（选一即可）
 
 ### ① WorkBuddy
-将本目录放入专家目录（`~/.workbuddy/plugins/marketplaces/my-experts/plugins/`），注册后于专家中心启用。团队 = 7 个子代理，主理人自动编排。
+将本目录放入专家目录并注册（两条命令）：
+
+```bash
+cp -r ibd-expert-team-public  ~/.workbuddy/plugins/marketplaces/my-experts/plugins/
+python3 <expert-manager技能目录>/scripts/register_expert.py  ~/.workbuddy/plugins/marketplaces/my-experts/plugins/ibd-expert-team-public
+```
+
+完成后在「专家中心 → 我的专家」启用「投资银行专家团（公共版）」（未出现则重启 WorkBuddy 刷新）。团队 = 7 个子代理，主理人自动编排。
 
 ### ② Claude Code
 ```bash
