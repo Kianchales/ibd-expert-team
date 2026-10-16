@@ -6,7 +6,7 @@
 import json, sys
 
 STATUSES = {"ok", "missing", "degraded"}
-ATYPES = {"nudge", "degrade", "respawn", "pending"}
+ATYPES = {"nudge", "degrade", "respawn", "pending", "drift"}
 
 def check(path):
     errs = []

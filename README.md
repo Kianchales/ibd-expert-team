@@ -4,7 +4,7 @@
 
 ## 安装
 
-- **WorkBuddy**：目录放入 `~/.workbuddy/plugins/marketplaces/my-experts/plugins/`，跑 `register_expert.py` 注册，重启后于专家中心启用
+- **WorkBuddy**：目录放入你的专家市场插件目录，注册后重启，于专家中心启用
 - **Claude Code**：`cp claude-code/agents/*.md ~/.claude/agents/`
 - **其他对话平台**：把 `core/TEAM-HANDBOOK.md` 作为 system prompt
 - **通用**：直接让 AI「阅读本仓库 README 并安装」
